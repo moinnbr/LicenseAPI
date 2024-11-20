@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.licenseapi.LicenseApiApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-16T15:15:57" hostname="DESKTOP-L4TPKCV" time="0.726">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.licenseapi.LicenseApiApplicationTests" time="0.726"/>
+  <system-out><![CDATA[21:15:50.870 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.licenseapi.LicenseApiApplicationTests]: LicenseApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:15:51.021 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.licenseapi.LicenseApiApplication for test class com.example.licenseapi.LicenseApiApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2024-11-16T21:15:51.743+06:00  INFO 16108 --- [    Test worker] c.e.l.LicenseApiApplicationTests         : Starting LicenseApiApplicationTests using Java 17.0.12 with PID 16108 (started by Dell in C:\Users\Dell\IdeaProjects\LicenseAPI)
+2024-11-16T21:15:51.746+06:00  INFO 16108 --- [    Test worker] c.e.l.LicenseApiApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-11-16T21:15:52.843+06:00  INFO 16108 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-16T21:15:52.921+06:00  INFO 16108 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2024-11-16T21:15:53.614+06:00  INFO 16108 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-16T21:15:53.885+06:00  INFO 16108 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:8558a2a3-bcf2-47da-b8fd-16a211290a10 user=SA
+2024-11-16T21:15:53.888+06:00  INFO 16108 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-16T21:15:53.964+06:00  INFO 16108 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-16T21:15:54.078+06:00  INFO 16108 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-16T21:15:54.141+06:00  INFO 16108 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-16T21:15:54.665+06:00  INFO 16108 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-16T21:15:55.899+06:00  INFO 16108 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-16T21:15:55.948+06:00  INFO 16108 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-16T21:15:56.416+06:00  WARN 16108 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-16T21:15:56.562+06:00  INFO 16108 --- [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-11-16T21:15:57.467+06:00  INFO 16108 --- [    Test worker] c.e.l.LicenseApiApplicationTests         : Started LicenseApiApplicationTests in 6.184 seconds (process running for 7.961)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
