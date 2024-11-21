@@ -12,11 +12,13 @@ public class License {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
+    @NotBlank(message = "License code cannot be blank")
     private String licenseCode;
 
 
     @Column(nullable = false)
+    @NotBlank(message = "BIN number cannot be blank")
     private String binNumber;
 
     @Column(nullable = false)

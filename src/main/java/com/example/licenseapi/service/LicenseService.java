@@ -14,6 +14,11 @@ public class LicenseService {
     private LicenseRepository licenseRepository;
 
     public License createLicense(License license) {
+        // Check for unique license code
+        licenseRepository.findByLicenseCode(license.getLicenseCode())
+                .ifPresent(existing -> {
+                    throw new RuntimeException("License code must be unique: " + license.getLicenseCode());
+                });
 
         return licenseRepository.save(license);
     }
